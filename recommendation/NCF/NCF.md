@@ -154,7 +154,7 @@ $$
 
 - Embedding layer (fully connected layer)
   - input 단계의 sparse 벡터를 dense 벡터로 맵핑하는 단계를 의미한다.
-    <img src="/assets/images/embeddinglayer.png" width="300" />
+    <img src="/assets/images/embeddinglayer.png" width="300" display="block"/>
   - 그니까 원핫 벡터를 가중치 행렬 $P$와 곱해 m 차원의 sparse 벡터를 $k(<\m)$차원 공간의 projection(투영)해서 dense 벡터로 변환시킨다고 보면 된다.
 
 <br>
