@@ -123,7 +123,9 @@ $$
 - 잠재공간의 각 차원이 서로 독립적이라고 가정하며 동일한 가중치로 선형결합하는 양방향 상호작용을 모델링한다고 볼 수 있다.
 - 다만 내적과 같은 linear 모델은 user-item의 복잡한 관계 표현에 한계가 있다는 것을 지적한다.
 
-![이미지](/assets/images/MF_limitation.png)
+<br>
+
+![이미지](/assets/images/MF_limitation.png){: width="500" height="500"}
 
 - 기존에 u1, u2, u3만 있었을 때는 u2와 u3 연관성이 더 높고 비교적 u1은 u2, u3보다 연관성이 없다.
 - linear space의 한계는 새로운 user 4가 등장했을 때 발생한다. u4는 u1과 가장 연관이 높고, u3, u2 순으로 연관성이 있다.
@@ -152,7 +154,7 @@ $$
 
 - Embedding layer (fully connected layer)
   - input 단계의 sparse 벡터를 dense 벡터로 맵핑하는 단계를 의미한다.
-    ![이미지](/assets/images/embeddinglayer.png)
+    ![이미지](/assets/images/embeddinglayer.png){: width="300" height="300"}
   - 그니까 원핫 벡터를 가중치 행렬 $P$와 곱해 m 차원의 sparse 벡터를 $k(<\m)$차원 공간의 projection(투영)해서 dense 벡터로 변환시킨다고 보면 된다.
 
 <br>
