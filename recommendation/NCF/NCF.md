@@ -93,7 +93,6 @@ $$
     m\times n
 \end{array}
 =
-
 \begin{array}{c}
     P(user)\\
     \begin{bmatrix}
@@ -120,10 +119,7 @@ $$
 이 때 MF는 $y_{u, i}$를 아래와 같이 내적으로 추정하게 된다.
 
 $$
-
 \hat{y}_{u,i}= f(u,i|\mathbf{p}_{u}, \mathbf{q}_{i}) = \mathbf{p}_{u} \mathbf{q}_{i}^{T}=  \sum_{k=1}^K p_{uk} q_{ki}
-
-
 $$
 
 - 잠재공간의 각 차원이 서로 독립적이라고 가정하며 동일한 가중치로 선형결합하는 양방향 상호작용을 모델링한다고 볼 수 있다.
