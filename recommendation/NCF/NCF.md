@@ -125,7 +125,7 @@ $$
 
 <br>
 
-![이미지](/assets/images/MF_limitation.png){: width="500" height="500"}
+<img src="/ckstn0777/paper_analysis/raw/main/assets/images/MF_limitation.png" max-width="500" />
 
 - 기존에 u1, u2, u3만 있었을 때는 u2와 u3 연관성이 더 높고 비교적 u1은 u2, u3보다 연관성이 없다.
 - linear space의 한계는 새로운 user 4가 등장했을 때 발생한다. u4는 u1과 가장 연관이 높고, u3, u2 순으로 연관성이 있다.
