@@ -80,7 +80,7 @@ $$
 
 ### Matrix Factorization
 
-MF는 $Y$를 보다 저차원 행렬 2개 ($P$, $Q$)로 분해해서 표현하는 방법이다.
+MF는 $$Y$$를 보다 저차원 행렬 2개 ($$P$$, $$Q$$)로 분해해서 표현하는 방법이다.
 
 $$
 \begin{array}{c}
@@ -102,7 +102,6 @@ $$
     \end{bmatrix}\\
     m\times k
 \end{array}
-
 \begin{array}{c}
     Q(item)\\
     \begin{bmatrix}
@@ -155,7 +154,7 @@ $$
 - Embedding layer (fully connected layer)
   - input 단계의 sparse 벡터를 dense 벡터로 맵핑하는 단계를 의미한다.
     ![이미지](/assets/images/embeddinglayer.png)
-  - 그니까 원핫 벡터를 가중치 행렬 $P$와 곱해 m 차원의 sparse 벡터를 $k(<m)$차원 공간의 projection(투영)해서 dense 벡터로 변환시킨다고 보면 된다.
+  - 그니까 원핫 벡터를 가중치 행렬 $P$와 곱해 m 차원의 sparse 벡터를 $$k(<m)$$차원 공간의 projection(투영)해서 dense 벡터로 변환시킨다고 보면 된다.
 
 <br>
 
