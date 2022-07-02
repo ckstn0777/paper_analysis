@@ -125,7 +125,7 @@ $$
 
 <br>
 
-<img src="/assets/images/MF_limitation.png" width="500" />
+<img src="/assets/images/MF_limitation.png" width="500" align="center"/>
 
 - 기존에 u1, u2, u3만 있었을 때는 u2와 u3 연관성이 더 높고 비교적 u1은 u2, u3보다 연관성이 없다.
 - linear space의 한계는 새로운 user 4가 등장했을 때 발생한다. u4는 u1과 가장 연관이 높고, u3, u2 순으로 연관성이 있다.
@@ -154,7 +154,7 @@ $$
 
 - Embedding layer (fully connected layer)
   - input 단계의 sparse 벡터를 dense 벡터로 맵핑하는 단계를 의미한다.
-    <img src="/assets/images/embeddinglayer.png" width="300" display="block"/>
+    <p><img src="/assets/images/embeddinglayer.png" width="300" display="block"/></p>
   - 그니까 원핫 벡터를 가중치 행렬 $P$와 곱해 m 차원의 sparse 벡터를 $k(<\m)$차원 공간의 projection(투영)해서 dense 벡터로 변환시킨다고 보면 된다.
 
 <br>
